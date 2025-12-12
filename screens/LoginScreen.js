@@ -15,6 +15,7 @@ export default function LoginScreen({ navigation }) {
     }
 
     if (email === 'admin' && password === 'admin') {
+      //Logic for login
       navigation.replace('MainDrawer');
     } else {
       setError('Invalid email or password.');
