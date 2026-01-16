@@ -11,7 +11,7 @@ export default function DrawerNavigator() {
   return (
     <Drawer.Navigator drawerContent={(props) => <CustomDrawer {...props} />}>
       <Drawer.Screen name="Home" component={DashboardScreen} />
-      <Drawer.Screen name="Log Attendance" component={DailyRecordScreen} />
+      <Drawer.Screen name="Reminders" component={DailyRecordScreen} />
       <Drawer.Screen name="About" component={AboutScreen} />
       <Drawer.Screen name="Settings" component={SettingsScreen} />
     </Drawer.Navigator>

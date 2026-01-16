@@ -1,7 +1,6 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import LoginScreen from '../screens/LoginScreen';
 import DrawerNavigator from './DrawerNavigator';
-
 const Stack = createNativeStackNavigator();
 
 export default function AuthStack() {
@@ -9,6 +8,7 @@ export default function AuthStack() {
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Login" component={LoginScreen} />
       <Stack.Screen name="MainDrawer" component={DrawerNavigator} />
+
     </Stack.Navigator>
   );
 }

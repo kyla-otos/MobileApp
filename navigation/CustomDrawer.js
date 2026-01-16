@@ -14,8 +14,8 @@ export default function CustomDrawer(props) {
       />
 
       <DrawerItem 
-        label="Log Attendance"
-        onPress={() => props.navigation.navigate("Log Attendance")}
+        label="Reminders"
+        onPress={() => props.navigation.navigate("Reminders")}
       />
 
       <DrawerItem 
@@ -25,7 +25,7 @@ export default function CustomDrawer(props) {
 
       <DrawerItem 
         label="Settings"
-        onPress={() => props.navigation.navigate("About")}
+        onPress={() => props.navigation.navigate("Settings")}
       />
 
       {/* Logout Button */}
